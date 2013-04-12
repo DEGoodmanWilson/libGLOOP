@@ -1,0 +1,27 @@
+BASEDIR = ..
+EXTRA_CFLAGS = 
+
+PARCEL_OBJS = parcel/download.o parcel/trans.o
+SYSTEM_OBJS = system/halt.o system/join.o system/joinresponse.o
+UNIVERSE_OBJS = universe/assignment.o universe/createparticle.o \
+                universe/destroyforce.o universe/destroyparticle.o \
+                universe/sync.o
+UTIL_OBJS = util/heartbeat.o util/key.o
+
+LOCAL_OBJS = mnetwork.o
+
+SUBDIRS = parcel system universe util
+
+OBJS = $(LOCAL_OBJS) $(PARCEL_OBJS) $(SYSTEM_OBJS) $(UNIVERSE_OBJS) 
+DEPS = $(LOCAL_OBJS:%.o=.%.d)
+
+.PHONY: all $(SUBDIRS)
+
+all: network.o
+
+network.o: $(LOCAL_OBJS) $(SUBDIRS)
+	$(AR) $@ $(OBJS)
+
+
+include $(BASEDIR)/Rules.make
+-include $(DEPS)
