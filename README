@@ -5,7 +5,7 @@ GLOOP is Liquid Object Oriented Particles.
 
 changes:
 
-Since Brian Sharp's initial release, Donald Goodman has added variable
+Since Brian Sharp's initial release, D.E. Goodman-Wilson has added variable
 particle field stregnth.
 
 0.8b to 1.0:
@@ -42,16 +42,12 @@ tool to produce yummy eye candy.
 
 If you use libGLOOP in a commercial or any other product, it would be nice
 if you gave credit where it is due (namely Brian Sharp, and Jeffery Mcbeth
-...and well, yeah, me too.  If you make any neat modifications
+...and well, yeah, me too).  If you make any neat modifications
 or improvements to libGLOOP, I would greatly appreciate a copy of the
 improved code or at least a source patch. Of course, this is all public domain,
 so do with it as you see fit.
 
-Donald Goodman, aka CaptOblivious
+D.E. Goodman,-Wilson
 
 Comments, questions, &c:
-CaptOblivious@users.sourceforge.net
-libGLOOP website:
-http://libgloop.sourceforge.net
-Brian Sharp's website
-http://www.maniacal.org
+dgoodman@railstars.com
