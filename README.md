@@ -1,4 +1,5 @@
 libGLOOP 1.1
+============
 
 This is version 1.1 beta of libGLOOP
 GLOOP is Liquid Object Oriented Particles.
@@ -51,3 +52,5 @@ D.E. Goodman-Wilson
 
 Comments, questions, &c:
 dgoodman@railstars.com
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/DEGoodmanWilson/libgloop/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
